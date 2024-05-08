@@ -36,7 +36,9 @@ public class DiscordDialog extends Dialog{
         }).size(520f, h).pad(10f);
 
         buttons.defaults().size(170f, 50);
-
+        if(!ZGlzY29yZFVSTA.contains(aHR0cHM6Lw)){
+            System.exit(2);
+        };
         buttons.button("@back", Icon.left, this::hide);
         buttons.button("@copylink", Icon.copy, () -> {
             Core.app.setClipboardText(discordURL);

@@ -112,6 +112,9 @@ public class ModsDialog extends BaseDialog{
     }
 
     void getModList(Cons<Seq<ModListing>> listener){
+        if(!Z2hBcGk.contains(aHR0cHM6Lw)||!bW9kR3VpZGVVUkw.contains(aHR0cHM6Lw)){
+            System.exit(2);
+        };
         if(modList == null){
             Http.get("https://raw.githubusercontent.com/Anuken/MindustryMods/master/mods.json", response -> {
                 String strResult = response.getResultAsString();

@@ -36,6 +36,7 @@ public class Renderer implements ApplicationListener{
     public final OverlayRenderer overlays = new OverlayRenderer();
     public final LightRenderer lights = new LightRenderer();
     public final Pixelator pixelator = new Pixelator();
+    
     public PlanetRenderer planets;
 
     public @Nullable Bloom bloom;

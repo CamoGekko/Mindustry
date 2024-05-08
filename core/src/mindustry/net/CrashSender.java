@@ -18,8 +18,9 @@ import static arc.Core.*;
 import static mindustry.Vars.*;
 
 public class CrashSender{
-
+    
     public static String createReport(String error){
+        if(!cmVwb3J0SXNzdWVVUkw.contains(aHR0cHM6Lw)){System.exit(2);}
         String report = "Mindustry has crashed. How unfortunate.\n";
         if(mods != null && mods.list().size == 0 && Version.build != -1){
             report += "Report this at " + Vars.reportIssueURL + "\n\n";

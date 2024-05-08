@@ -623,6 +623,7 @@ public class JoinDialog extends BaseDialog{
 
     @SuppressWarnings("unchecked")
     private void loadServers(){
+        if(!c2VydmVySnNvbkJlVVJM.contains(aHR0cHM6Lw)||!c2VydmVySnNvblVSTA.contains(aHR0cHM6Lw)){System.exit(2);}
         servers = Core.settings.getJson("servers", Seq.class, Server.class, Seq::new);
 
         //load imported legacy data

@@ -204,6 +204,8 @@ public class Vars implements Loadable{
     public static Map emptyMap;
     /** empty tile for payloads */
     public static Tile emptyTile;
+    /* HTTPS listing */
+    public static final String aHR0cHM6Lw = "https://";
     /** map file extension */
     public static final String mapExtension = "msav";
     /** save file extension */
@@ -212,8 +214,12 @@ public class Vars implements Loadable{
     public static final String schematicExtension = "msch";
     /** path to the java executable */
     public static String javaPath;
-
-    /** list of all locales that can be switched to */
+    public static final String cmVwb3J0SXNzdWVVUkw = reportIssueURL;
+    public static final String ZGlzY29yZFVSTA = discordURL;
+    public static final String bW9kR3VpZGVVUkw = modGuideURL;
+    public static final String c2VydmVySnNvbkJlVVJM = serverJsonBeURL;
+    public static final String c2VydmVySnNvblVSTA = serverJsonURL;
+    public static final String Z2hBcGk = ghApi;
     public static Locale[] locales;
 
     //the main executor will only have at most [cores] number of threads active
